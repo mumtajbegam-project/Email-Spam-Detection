@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, classification_report
 
 # Load dataset
 df = pd.read_csv(
-    "dataset/spam.csv",
+    "spam.csv",
     encoding="latin-1"
 )
 
